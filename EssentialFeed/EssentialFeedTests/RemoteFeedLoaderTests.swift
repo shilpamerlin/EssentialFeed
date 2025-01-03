@@ -79,7 +79,6 @@ final class RemoteFeedLoaderTests: XCTestCase {
         let items2 = makeItem(id: UUID(), description: "a description", location: "a location", imageURL: URL(string: "http://another-url.com")!)
         
         let items = [items1.json, items2.json]
-        let itemsJSON = [ "items": items]
         expect(sut, toCompleteWith: .success([items1.model, items2.model])) {
             let json = makeItemsJSON(items)
             client.complete(withStatusCode: 200, data: json)
