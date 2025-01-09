@@ -9,7 +9,7 @@ public enum LoadFeedResult {
 	case failure(Error)
 }
 
-protocol FeedLoader: RemoteFeedLoader {
+public protocol FeedLoader: RemoteFeedLoader {
 
 	func load(completion: @escaping (LoadFeedResult) -> Void)
 }
