@@ -34,8 +34,6 @@ public final class RemoteFeedLoader {
             }
         }
     }
-    
-    
 }
 
 
