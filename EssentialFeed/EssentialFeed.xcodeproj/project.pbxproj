@@ -10,9 +10,10 @@
 		080EDEFB21B6DA7E00813479 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		080EDF0C21B6DAE800813479 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080EDF0B21B6DAE800813479 /* FeedItem.swift */; };
 		080EDF0E21B6DCB600813479 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080EDF0D21B6DCB600813479 /* FeedLoader.swift */; };
+		8D1985742D34E073004CD2E7 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE7802D34D4F900C58A61 /* EssentialFeedAPIEndToEndTests.swift */; };
+		8D1985752D34E07F004CD2E7 /* XCTTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE7552D30E63200C58A61 /* XCTTestCase+MemoryLeakTracking.swift */; };
 		8DBBE7562D30E63200C58A61 /* XCTTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE7552D30E63200C58A61 /* XCTTestCase+MemoryLeakTracking.swift */; };
 		8DBBE7582D31C24900C58A61 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE7572D31C24900C58A61 /* URLSessionHTTPClient.swift */; };
-		8DBBE7812D34D4F900C58A61 /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBBE7802D34D4F900C58A61 /* EssentialFeedAPIEndToEndTests.swift */; };
 		8DBBE7822D34D4F900C58A61 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		8DD55DD62D2A07D800E55A70 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD55DD52D2A07D800E55A70 /* HTTPClient.swift */; };
 		8DD55DD82D2A083E00E55A70 /* FeedMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD55DD72D2A083E00E55A70 /* FeedMapper.swift */; };
@@ -331,7 +332,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DBBE7812D34D4F900C58A61 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
+				8D1985752D34E07F004CD2E7 /* XCTTestCase+MemoryLeakTracking.swift in Sources */,
+				8D1985742D34E073004CD2E7 /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
