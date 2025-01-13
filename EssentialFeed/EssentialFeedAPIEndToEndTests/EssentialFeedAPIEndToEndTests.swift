@@ -35,7 +35,7 @@ final class EssentialFeedAPIEndToEndTests: XCTestCase {
         }
     }
     
-    //MARK: Helpers
+    //MARK: Helpers for test purpose
     
     func getFeedResult(file: StaticString = #file, line: UInt = #line) -> LoadFeedResult? {
         let testServerURL = URL(string: "https://essentialdeveloper.com/feed-case-study/test-api/feed")!
